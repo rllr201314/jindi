@@ -1,0 +1,15 @@
+<view class="con" hover-class="hover" hover-start-time="1000" hover-stay-time="2000">
+ 我是home页面
+</view>
+
+<view class="fu" hover-class="fuhover">
+   父
+  <view class="zi" hover-class="zihover" hover-stop-propagation="true">
+   子
+  </view>
+
+ 
+</view>
+ <text space="ensp">我 是文字\n</text>
+ <text space="emsp">我 是文字\n</text>
+ <text space="nbsp">我 是文字\n</text>
